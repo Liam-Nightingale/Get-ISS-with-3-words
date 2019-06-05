@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#issMap {
+  height: 600px;
+  width: 600px;
+  margin-right: 0px;
+}
+
+p {
+  margin-left: 200px;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+#tableID, #span3 {
+  font-family: "Trebuchet MS";
+  border-collapse: collapse;
+  width: 350px;
+  float: right;
+  font-size: 12px;
+  table-layout: fixed;
+  margin-left: 0px;
+  margin-right: 0px;
+  display: table-column-group;
+}
+
+#tableID td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tableID tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#tableID tr:hover {
+  background-color: #ddd;
+}
